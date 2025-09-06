@@ -11,7 +11,7 @@ import requests
 from .options import OptionsState
 
 DEFAULT_IMAGE = "/default.webp"
-API_TOKEN_ENV_VAR = os.getenv("OPENAI_API_KEY")
+API_TOKEN_ENV_VAR = os.getenv("GEMINI_API_KEY")
 
 
 CopyLocalState = rx._x.client_state(default=False, var_name="copying")

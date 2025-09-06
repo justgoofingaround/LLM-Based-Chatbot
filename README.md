@@ -1,6 +1,6 @@
 # Reflex Chat App
 
-A user-friendly, highly customizable Python web app designed to demonstrate LLMs in a ChatGPT format.
+A customizable Python web app for ChatGPT-style conversations, with preserved chat history, data analysis, and image generation.
 
 <div align="center">
 <img src="./docs/demo.gif" alt="icon"/>
@@ -8,10 +8,10 @@ A user-friendly, highly customizable Python web app designed to demonstrate LLMs
 
 # Getting Started
 
-You'll need a valid OpenAI subscription - save your API key under the environment variable `OPENAI_API_KEY`:
+You'll need a valid Google Gemini subscription - save your API key under the environment variable `GEMINI_API_KEY`:
 
 ```bash
-export OPENAI_API_KEY="YOUR_OPENAI_API_KEY" # replace me!
+export GEMINI_API_KEY="YOUR_GEMINI_API_KEY" # replace me!
 ```
 
 ### 🧬 1. Clone the Repo
@@ -26,7 +26,7 @@ To get started with Reflex, you'll need:
 
 - Python 3.7+
 - Node.js 12.22.0+ \(No JavaScript knowledge required!\)
-- Pip dependencies: `reflex`, `openai`
+- Pip dependencies: `reflex`, `google-generativeai`
 
 Install `pip` dependencies with the provided `requirements.txt`:
 
@@ -58,7 +58,3 @@ We welcome contributions to improve and extend the LLM Web UI.
 If you'd like to contribute, please do the following:
 - Fork the repository and make your changes. 
 - Once you're ready, submit a pull request for review.
-
-# License
-
-The following repo is licensed under the MIT License.
